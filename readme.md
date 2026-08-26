@@ -1,4 +1,4 @@
-# notes_20_23_26
+# Notes_20_23_26
 
 Personal notes and examples about modern C++ standards.
 
