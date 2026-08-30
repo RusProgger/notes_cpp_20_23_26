@@ -16,7 +16,11 @@ int main() {
 
     auto result = Divide(10, 2);
 
-    
+    if(result) {
+        std::println("Result: {}", *result);
+    } else {
+        std::println("Error");
+    }
 
     return 0;
 }
