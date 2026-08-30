@@ -8,7 +8,7 @@ std::expected<int, std::string>Divide(int a, int b) {
         return std::unexpected("Divide by zero!!!\n");
     }
 
-    result a / b;
+    return a / b;
 }
 
 
@@ -19,7 +19,7 @@ int main() {
     if(result) {
         std::println("Result: {}", *result);
     } else {
-        std::println("Error");
+        std::println("Error: {}", result.error());
     }
 
     return 0;
