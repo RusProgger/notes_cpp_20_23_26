@@ -14,7 +14,7 @@ std::expected<int, std::string>Divide(int a, int b) {
 
 int main() {
 
-    auto result = Divide(10, 2);
+    auto result = Divide(10, 0);
 
     if(result) {
         std::println("Result: {}", *result);
